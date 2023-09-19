@@ -1,0 +1,245 @@
+[
+  {
+    "id": 1,
+    "title": "First Item",
+    "place": "Brussels",
+    "date": "16 Jun 2023, Sat",
+    "time": "02:00 PM ETD",
+    "author": "Robert Fox",
+    "period": "43 min",
+    "dateandtime": "Thu, Mar 9, 2023 02:00 PM- United State Of America Time",
+    "speaker": "310 S. Main, Floor 12Salt Lake City, UT 84101",
+    "event_mode": "Online",
+    "location": "310 S. Main, Floor 12Salt Lake City, UT 84101",
+    "language": "English",
+    "fee": "$50.00",
+    "day01date": "16 August",
+    "day02date": "17 August",
+    "day03date": "18 August",
+    "banner":"https://img.freepik.com/free-psd/influencer-youtube-channel-art-design_23-2149489326.jpg",
+    "university":"../assests/university.png",
+    "summary": "Lots of us have home assistants in our homes nowadays. They re very clever. You can get recipes, play\nmusic, control your lights, and so much more with just a simple voice command. But home assistants are just\n1 example of an amazing development in technology called artificial intelligence, or AI for short.\n\nWe ve all heard that phrase, and most people could probably give a basic explanation, but who really knows\nexactly what it is? Thankfully, this course will give you the insight you need, by explaining exactly what AI is\nand how it can be useful day to day.",
+    "day01": [
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      }
+    ],
+    "day02": [
+      {
+        "time": "12:00 AM to 10:00 PM ",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      }
+    ],
+    "day03": [
+      {
+        "time": "10:00 AM to 7:00 PM ",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Second Item",
+    "place": "Brussels",
+    "date": "16 Jun 2023, Sat",
+    "time": "02:00 PM ETD",
+    "author": "Robert Fox",
+    "period": "43 min",
+    "dateandtime": "Thu, Mar 9, 2023 02:00 PM- United State Of America Time",
+    "speaker": "310 S. Main, Floor 12Salt Lake City, UT 84101",
+    "event_mode": "Online",
+    "location": "310 S. Main, Floor 12Salt Lake City, UT 84101",
+    "language": "English",
+    "fee": "$100.00",
+    "day01date": "16 August",
+    "day02date": "17 August",
+    "day03date": "18 August",
+    "banner":"https://img.freepik.com/free-psd/influencer-youtube-channel-art-design_23-2149489326.jpg",
+    "university":"https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Harvard_shield_wreath.svg/1200px-Harvard_shield_wreath.svg.png",
+    "summary": "Lots of us have home assistants in our homes nowadays. They re very clever. You can get recipes, play\nmusic, control your lights, and so much more with just a simple voice command. But home assistants are just\n1 example of an amazing development in technology called artificial intelligence, or AI for short.\n\nWe ve all heard that phrase, and most people could probably give a basic explanation, but who really knows\nexactly what it is? Thankfully, this course will give you the insight you need, by explaining exactly what AI is\nand how it can be useful day to day.",
+    "day01": [
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Ve.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vest",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      }
+    ],
+    "day02": [
+      {
+        "time": "12:00 AM to 10:00 PM ",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel ",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      }
+    ],
+    "day03": [
+      {
+        "time": "10:00 AM to 7:00 PM ",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum ve",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Third Item",
+    "place": "Brussels",
+    "date": "16 Jun 2023, Sat",
+    "time": "02:00 PM ETD",
+    "author": "Robert Fox",
+    "period": "43 min",
+    "dateandtime": "Thu, Mar 9, 2023 02:00 PM- United State Of America Time",
+    "speaker": "310 S. Main, Floor 12Salt Lake City, UT 84101",
+    "event_mode": "Online",
+    "location": "310 S. Main, Floor 12Salt Lake City, UT 84101",
+    "language": "English",
+    "fee": "$500.00",
+    "day01date": "16 August",
+    "day02date": "17 August",
+    "day03date": "18 August",
+    "banner":"https://img.freepik.com/free-psd/influencer-youtube-channel-art-design_23-2149489326.jpg",
+    "university":"https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Harvard_shield_wreath.svg/1200px-Harvard_shield_wreath.svg.png",
+    "summary": "Lots of us have home assistants in our homes nowadays. They re very clever. You can get recipes, play\nmusic, control your lights, and so much more with just a simple voice command. But home assistants are just\n1 example of an amazing development in technology called artificial intelligence, or AI for short.\n\nWe ve all heard that phrase, and most people could probably give a basic explanation, but who really knows\nexactly what it is? Thankfully, this course will give you the insight you need, by explaining exactly what AI is\nand how it can be useful day to day.",
+    "day01": [
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum ",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      }
+    ],
+    "day02": [
+      {
+        "time": "12:00 AM to 10:00 PM ",
+        "content": "Vestibulum vel eros ",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      }
+    ],
+    "day03": [
+      {
+        "time": "10:00 AM to 7:00 PM ",
+        "content": "Vestibulum vel eros vel metus ",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      },
+      {
+        "time": "11:00 AM to 12:00 PM",
+        "content": "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+        "speakerimage":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "speakername":"Yui Ronald"
+      }
+    ]
+  }
+]

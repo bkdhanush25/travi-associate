@@ -17,7 +17,6 @@ import data from "../assets/data.json";
 import HeadsetMicOutlinedIcon from "@mui/icons-material/HeadsetMicOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import TranslateOutlinedIcon from "@mui/icons-material/TranslateOutlined";
-import university from "../assets/university.png";
 
 function Body() {
   const [mappedData, setMappedData] = useState(() => {

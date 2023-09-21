@@ -8,11 +8,11 @@ function Header() {
   const [nav,setNav] = useState('event');
 
   return (
-    <div className='grid grid-cols-3 px-6 py-4 rounded-md border-b-2 shadow-lg bg-white'>
+    <div className='grid grid-cols-3 max-sm:grid-cols-2 px-6 py-4 rounded-md border-b-2 shadow-lg bg-white justify-between'>
         <div>
             <p className='tracking-widest font-semibold font-bold text-orange-600 text-2xl'>LOGO</p>
         </div>
-        <div className='flex mx-auto space-x-6 text-sm font-semibold text-gray-500 pt-2'>
+        <div className='flex mx-auto space-x-6 text-sm font-semibold text-gray-500 pt-2 max-sm:hidden'>
             <p className={`cursor-pointer ${nav==='event'?"underline decoration-2 decoration-orange-600 underline-offset-4":""}`} onClick={() => {setNav('event');}}>Events</p>
             <p className={`cursor-pointer ${nav==='organization'?"underline decoration-2 decoration-orange-600 underline-offset-4":""}`} onClick={() => {setNav('organization');}}>Organization</p>
             <p className={`cursor-pointer ${nav==='about'?"underline decoration-2 decoration-orange-600 underline-offset-4":""}`} onClick={() => {setNav('about');}}>About</p>

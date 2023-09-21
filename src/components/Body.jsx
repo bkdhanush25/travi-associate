@@ -19,6 +19,8 @@ import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import TranslateOutlinedIcon from "@mui/icons-material/TranslateOutlined";
 
 function Body() {
+  var rootElement = document.documentElement
+  
   const [mappedData, setMappedData] = useState(() => {
     return data.map((item) => {
       item.matches = true;
@@ -31,9 +33,9 @@ function Body() {
   const [currentDay, setCurrentDay] = useState(rightData.day01);
 
   return (
-    <div className="mx-24">
+    <div className="mx-24 max-lg:mx-2">
       {/* Search Categories and Event Filters */}
-      <div className="flex mt-7 mb-5 justify-between">
+      <div className="flex mt-7 mb-5 justify-between max-lg:hidden">
         <div className="flex text-sm items-center p-1 border-2 border-gray-200 rounded-md space-x-2.5 px-2 bg-white text-gray-500">
           <TuneOutlinedIcon />
         </div>
@@ -113,7 +115,7 @@ function Body() {
         </div>
       </div>
       {/* Event Card Info */}
-      <div className="grid grid-cols-3">
+      <div className="max-lg:mt-4 lg:grid lg:grid-cols-3 flex flex-col-reverse">
         {/* Left Part Card */}
         <div>
           {mappedData.map((item) => {
@@ -168,8 +170,13 @@ function Body() {
         {/* Right Part Card */}
         <div className="col-span-2 p-1 pl-5 bg-white border-2 border-gray-200 rounded-lg px-4 py-5">
           <div className="p-1 flex justify-between">
-            <h1 className="text-3xl font-semibold">{rightData.title}</h1>
-            <div className="flex text-right w-100 space-x-6 px-5">
+            <h1 className="text-3xl font-semibold"
+            onClick={rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })} 
+            >{rightData.title}</h1>
+            <div className="flex text-right w-100 space-x-6 max-sm:space-x-2 px-5">
               <BookmarkBorderOutlinedIcon
                 className="border-2 border-gray-300 text-gray-500 rounded-md p-1 cursor-pointer"
                 sx={{ width: 35, height: 35 }}
@@ -189,7 +196,7 @@ function Body() {
             className="w-[97%] rounded-lg mt-8"
             alt="banner"
           />
-          <div className="flex mt-5 space-x-3">
+          <div className="flex mt-5 space-x-3 max-sm:hidden">
             <div className="flex text-gray-600 py-1 pl-1 pr-10 rounded-full bg-gray-100">
               <FiberManualRecordIcon className="p-1" />
               <p className="text-sm font-medium pt-0.5">Technology</p>
@@ -203,11 +210,11 @@ function Body() {
               <p className="text-sm font-medium pt-0.5">Games</p>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-x-2">
+          <div className="grid grid-cols-3 gap-x-2 max-sm:grid-cols-1 max-sm:gap-x-1">
             <div className="flex mt-8">
               <CalendarMonthOutlinedIcon
                 sx={{ width: 30, height: 30 }}
-                className="m-5"
+                className="m-5 max-sm:m-2"
               />
               <div>
                 <p className="text-sm font-semibold mb-3">Date and time</p>
@@ -219,7 +226,7 @@ function Body() {
             <div className="flex mt-8">
               <HeadsetMicOutlinedIcon
                 sx={{ width: 30, height: 30 }}
-                className="m-5"
+                className="m-5 max-sm:m-2"
               />
               <div>
                 <p className="text-sm font-semibold mb-3">Speaker</p>
@@ -231,7 +238,7 @@ function Body() {
             <div className="flex mt-8">
               <PodcastsOutlinedIcon
                 sx={{ width: 30, height: 30 }}
-                className="m-5"
+                className="m-5 max-sm:m-2"
               />
               <div>
                 <p className="text-sm font-semibold mb-3">Event mode</p>
@@ -241,7 +248,7 @@ function Body() {
               </div>
             </div>
             <div className="flex mt-8">
-              <MapOutlinedIcon sx={{ width: 30, height: 30 }} className="m-5" />
+              <MapOutlinedIcon sx={{ width: 30, height: 30 }} className="m-5 max-sm:m-2" />
               <div>
                 <p className="text-sm font-semibold mb-3">Location</p>
                 <p className="text-xs text-gray-500 font-medium">
@@ -252,7 +259,7 @@ function Body() {
             <div className="flex mt-8">
               <TranslateOutlinedIcon
                 sx={{ width: 30, height: 30 }}
-                className="m-5"
+                className="m-5 max-sm:m-2"
               />
               <div>
                 <p className="text-sm font-semibold mb-3">Language</p>
@@ -264,7 +271,7 @@ function Body() {
             <div className="flex mt-8">
               <AttachMoneyOutlinedIcon
                 sx={{ width: 30, height: 30 }}
-                className="m-5"
+                className="m-5 max-sm:m-2"
               />
               <div>
                 <p className="text-sm font-semibold mb-3">Fee</p>
@@ -279,7 +286,7 @@ function Body() {
               Register Event
             </button>
           </div>
-          <pre className="mr-5 text-sm">
+          <pre className="mr-5 text-sm whitespace-pre-wrap">
             {rightData.summary}
           </pre>
           <div className="grid grid-cols-2 mt-10 mx-5 mb-5 items-center">

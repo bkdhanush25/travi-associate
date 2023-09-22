@@ -124,12 +124,12 @@ function Body() {
                 <div
                   key={item.id}
                   onClick={() => setRightData(item)}
-                  className="p-1 bg-white mr-5 border-2 border-gray-200 rounded-lg px-4 py-5 mb-2 cursor-pointer"
+                  className="p-1 bg-white mr-5 border-2 border-gray-200 rounded-lg px-4 py-5 mb-2 cursor-pointer max-lg:mt-5 max-lg:mr-0 max-lg:text-sm"
                 >
                   <h2 className="text-xl font-bold mb-3">
                     {item.title} {item.matches}
                   </h2>
-                  <div className="flex text-sm text-gray-600 space-x-3">
+                  <div className="flex text-sm text-gray-600 space-x-3 max-sm:text-xs">
                     <div className="flex">
                       <PinDropOutlinedIcon className="p-0.5" />
                       <p className="pt-0.5">{item.place}</p>
@@ -397,7 +397,7 @@ function Body() {
                 <tr className="border-b">
                   <th className="py-5 pl-3">Time</th>
                   <th className="py-5 pl-3">Content</th>
-                  <th className="py-5 pl-3">Speakers</th>
+                  <th className="py-5 pl-3 max-xl:pr-3">Speakers</th>
                 </tr>
               </thead>
               <tbody>

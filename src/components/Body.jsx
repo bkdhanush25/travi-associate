@@ -281,7 +281,7 @@ function Body() {
               </div>
             </div>
           </div>
-          <div className="text-center mt-3 mb-5">
+          <div className="text-center mt-3 mb-5 max-sm:my-7">
             <button className="bg-orange-500 py-2 px-5 text-white rounded-md text-sm hover:bg-red-600">
               Register Event
             </button>
@@ -289,11 +289,11 @@ function Body() {
           <pre className="mr-5 text-sm whitespace-pre-wrap">
             {rightData.summary}
           </pre>
-          <div className="grid grid-cols-2 mt-10 mx-5 mb-5 items-center">
-            <div className="flex  items-center">
+          <div className="grid grid-cols-2 mt-10 mx-5 mb-5 items-center max-sm:grid-cols-1 max-sm:mx-1 max-sm:mt-5">
+            <div className="flex max-sm:mx-auto items-center">
               <img
                 src={require('../assets/university.png')}
-                className="w-[80px] mr-5"
+                className="w-[80px] mr-5 max-sm:w-[50px] max-sm:mr-2"
                 alt="university"
               />
               <div className="">
@@ -301,14 +301,14 @@ function Body() {
                 <p className="text-gray-700">Computer science </p>
               </div>
             </div>
-            <div className="text-right">
+            <div className="text-right max-sm:my-3 max-sm:text-center">
               <button className="bg-orange-500 py-1 px-10 text-white rounded-md text-xs hover:bg-red-600">
                 Follow
               </button>
             </div>
           </div>
           <h2 className="text-xl font-semibold mb-5">Event Schedule</h2>
-          <div className="grid grid-cols-3 gap-x-6">
+          <div className="grid grid-cols-3 gap-x-6 max-sm:gap-x-2">
             <div
               className="cursor-pointer"
               onClick={() => {
@@ -404,13 +404,13 @@ function Body() {
                 {currentDay.map((item) => (
                   <tr className="border-b" key={item.id}>
                     <td className="text-xs py-5 pl-3 text-x">{item.time}</td>
-                    <td className="py-5 pl-3 text-sm">{item.content}</td>
+                    <td className="py-5 pl-3 text-sm whitespace-pre-wrap max-w-sm">{item.content}</td>
                     <td className="py-5 pl-3">
-                      <div className="flex">
-                        <img src={item.speakerimage} className="w-10 rounded-full" />
+                      <div className="flex pr-3 max-xl:flex-col max-xl:pr-1">
+                        <img src={item.speakerimage} className="w-10 rounded-full mr-3 max-xl:mb-2 max-xl:mx-auto max-xl:w-8" />
                         <div className="text-xs">
                           <p className="font-bold">{item.speakername}</p>
-                          <p className="text-gray-500">@{item.speakername}</p>
+                          <p className="text-gray-500 max-xl:text-xs">@{item.speakername}</p>
                         </div>
                       </div>
                     </td>
